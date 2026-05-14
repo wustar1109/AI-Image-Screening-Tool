@@ -107,6 +107,7 @@ export async function analyzeTextureDesign({
     };
   }
 
+
   // Step 2：本地 CV 分（使用最终选定的模板）
   const cvScore = scoreCvMetrics(cvMetrics, selectedTemplate);
 
